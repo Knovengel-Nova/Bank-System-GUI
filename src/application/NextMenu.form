@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="logOutButton" min="-2" pref="301" max="-2" attributes="0"/>
+                          <Component id="myInfoButton" min="-2" pref="301" max="-2" attributes="0"/>
+                          <Component id="changePinButton" min="-2" pref="301" max="-2" attributes="0"/>
+                          <Component id="myTransactionsButton" min="-2" pref="301" max="-2" attributes="0"/>
+                          <Component id="withdrawButton" min="-2" pref="301" max="-2" attributes="0"/>
+                          <Component id="depositButton" min="-2" pref="301" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="107" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="accountNumberLabel" min="-2" pref="200" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="accountBalanceLabel" min="-2" pref="200" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="accountNumberLabel" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="accountBalanceLabel" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="99" max="32767" attributes="0"/>
+              <Component id="depositButton" min="-2" pref="71" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="withdrawButton" min="-2" pref="71" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="myTransactionsButton" min="-2" pref="71" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="changePinButton" min="-2" pref="71" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="myInfoButton" min="-2" pref="71" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="logOutButton" min="-2" pref="71" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="depositButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DejaVu Sans" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Deposit"/>
+        <Property name="toolTipText" type="java.lang.String" value="Deposit Money into the Account"/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="depositButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="withdrawButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DejaVu Sans" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Withdraw"/>
+        <Property name="toolTipText" type="java.lang.String" value="Withdraw Money from the Account"/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="withdrawButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="myTransactionsButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DejaVu Sans" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="My Transactions"/>
+        <Property name="toolTipText" type="java.lang.String" value="Check You&apos;r Transaction History"/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="myTransactionsButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="changePinButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DejaVu Sans" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Change Pin"/>
+        <Property name="toolTipText" type="java.lang.String" value="Change You&apos;r Account Pin"/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="changePinButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="myInfoButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DejaVu Sans" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="My Info"/>
+        <Property name="toolTipText" type="java.lang.String" value="Check out You&apos;r Info"/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="myInfoButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="logOutButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DejaVu Sans" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Log Out"/>
+        <Property name="toolTipText" type="java.lang.String" value="Log out!"/>
+        <Property name="borderPainted" type="boolean" value="false"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="logOutButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="accountNumberLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DejaVu Sans" size="14" style="3"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+        <Property name="text" type="java.lang.String" value="2024300169"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="accountBalanceLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="DejaVu Sans" size="14" style="3"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="$ 269999"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
